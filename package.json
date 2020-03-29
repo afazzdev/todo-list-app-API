@@ -1,0 +1,16 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "simple todo-list api",
+  "main": "server.js",
+  "author": "afazzdev",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
