@@ -12,6 +12,14 @@
   },
   "scripts": {
     "dev": "nodemon server.js",
-    "build": "node server.js"
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "engines": {
+    "node": "12.x"
   }
 }
