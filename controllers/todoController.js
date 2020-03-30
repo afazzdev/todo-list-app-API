@@ -11,6 +11,8 @@ exports.getAllTodo = async (req, res, next) => {
 };
 
 exports.addNewTodo = async (req, res, next) => {
+  console.log(req.body);
+  if (!req.body) return new AppError('must have a body', 400)
   const data = await Todo.create(req.body);
 
   res.status(201).json({
